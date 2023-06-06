@@ -6,6 +6,7 @@ import BaseUsefulComponent from "../../components/usefulComponents/base";
 import UsefullProgress from "../../components/usefulComponents/progress";
 import Quicklinks from "../../components/usefulComponents/quicklinks";
 import { Link } from "react-router-dom";
+import HeaderComponent from "../../components/footer/headerComponent";
 
 const UsefulInformation = () => {
   return (
@@ -73,9 +74,12 @@ const UsefulInformation = () => {
                           <div className="ube-property">
                             <div className="ere-property-wrap">
                               <div className="ere-property clearfix property-grid  col-gap-30">
-                                <div style={{
-                                    columns: "unset"
-                                }} className="property-content columns-3 columns-md-3 columns-sm-2 columns-xs-1 columns-mb-1">
+                                <div
+                                  style={{
+                                    columns: "unset",
+                                  }}
+                                  className="property-content columns-3 columns-md-3 columns-sm-2 columns-xs-1 columns-mb-1"
+                                >
                                   <div className="ere-item-wrap property-item mg-bottom-30 ere-property-featured">
                                     <div className="property-inner">
                                       <div className="property-image">
@@ -716,9 +720,7 @@ const UsefulInformation = () => {
                                           <p className="status-item">
                                             <span className="property-status-bg bg-[#dd3333]">
                                               For Sale{" "}
-                                              <span
-                                                className="property-arrow border-l-[#dd3333] border-r-[#dd3333]"
-                                              ></span>
+                                              <span className="property-arrow border-l-[#dd3333] border-r-[#dd3333]"></span>
                                             </span>
                                           </p>
                                         </div>
@@ -1227,6 +1229,7 @@ const UsefulInformation = () => {
             </div>
           </div>
         </div>
+        <HeaderComponent />
       </div>
     </>
   );
