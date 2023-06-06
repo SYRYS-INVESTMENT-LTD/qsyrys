@@ -36916,7 +36916,8 @@ body[data-elementor-device-mode=desktop] .ube-col-lg-custom-5,body[data-elemento
 
 .ube-posts-metro .ube-grid-item {
     display: grid;
-    position: relative
+    position: relative;
+    height:340px;
 }
 
 .ube-posts-metro .ube-grid-item::before {

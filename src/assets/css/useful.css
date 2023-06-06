@@ -330,6 +330,8 @@
   .elementor-drop-cap {
   margin-top: 8px;
 }
+
+
 .elementor-widget-text-editor:not(.elementor-drop-cap-view-default)
   .elementor-drop-cap-letter {
   width: 1em;
@@ -343,4 +345,10 @@
 }
 .elementor-widget-text-editor .elementor-drop-cap-letter {
   display: inline-block;
+}
+
+@media (max-width: 760px) {
+    .elementor-8461 .elementor-element.elementor-element-8e5b81d .ube-posts-metro{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
