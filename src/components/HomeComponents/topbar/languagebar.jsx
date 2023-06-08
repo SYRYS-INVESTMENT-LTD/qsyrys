@@ -125,14 +125,14 @@ const LanguageBar = () => {
                     <Link
                       target="_blank"
                       title="Facebook"
-                      href="https://www.facebook.com/realsyrys"
+                      to="https://www.facebook.com/realsyrys"
                     >
                       <i className="fa fa-facebook"></i>
                     </Link>
-                    <Link target="_blank" title="Twitter" href="#">
+                    <Link target="_blank" title="Twitter" to="#">
                       <i className="fa fa-twitter"></i>
                     </Link>
-                    <Link target="_blank" title="Google+" href="#">
+                    <Link target="_blank" title="Google+" to="#">
                       <i className="fa fa-google-plus"></i>
                     </Link>
                     <div className="clearfix"></div>
@@ -151,7 +151,7 @@ const LanguageBar = () => {
                 <div className="logo-header">
                   <Link
                     className="no-sticky"
-                    href="/"
+                    to="/"
                     title="Property Investment-PropertyInvestment"
                   >
                     <img
@@ -170,7 +170,7 @@ const LanguageBar = () => {
                       className="menu-item !ml-5 menu-item-type-custom menu-item-object-custom x-menu-item x-item-menu-standard"
                     >
                       <Link
-                        href="/property-status/for-sale/"
+                        to="/property-status/for-sale/"
                         className="x-menu-a-text"
                       >
                         <span className="x-menu-text">Sales</span>
@@ -181,7 +181,7 @@ const LanguageBar = () => {
                       className="menu-item !ml-5 menu-item-type-custom menu-item-object-custom x-menu-item x-item-menu-standard"
                     >
                       <Link
-                        href="/property-status/for-rent/"
+                        to="/property-status/for-rent/"
                         className="x-menu-a-text"
                       >
                         <span className="x-menu-text">Rents</span>
@@ -191,7 +191,7 @@ const LanguageBar = () => {
                       id="menu-item-9502"
                       className="menu-item menu-item-type-post_type menu-item-object-page x-menu-item !ml-5 x-item-menu-standard"
                     >
-                      <Link href="/investment/" className="x-menu-a-text">
+                      <Link to="/investment" className="x-menu-a-text">
                         <span className="x-menu-text">Investment</span>
                       </Link>
                     </li>
@@ -200,7 +200,7 @@ const LanguageBar = () => {
                       className="menu-item menu-item-type-post_type menu-item-object-page !ml-5 x-menu-item x-item-menu-standard"
                     >
                       <Link
-                        href="/useful-information/"
+                        to="/useful-information"
                         className="x-menu-a-text"
                       >
                         <span className="x-menu-text">Useful Information</span>
@@ -210,7 +210,7 @@ const LanguageBar = () => {
                       id="menu-item-6304"
                       className="menu-item !ml-5 menu-item-type-post_type menu-item-object-page x-menu-item x-item-menu-standard"
                     >
-                      <Link href="/about-us/" className="x-menu-a-text">
+                      <Link to="/about-us" className="x-menu-a-text">
                         <span className="x-menu-text">About Us</span>
                       </Link>
                     </li>

@@ -61,7 +61,7 @@ const Explore = () => {
                     <div className="ube-property-type ere-property-type">
                       <div className="property-type-inner">
                         <div className="property-type-image">
-                          <Link href="/property-type/villa/" title="Villa">
+                          <Link to="/property-type/villa/" title="Villa">
                             <img
                               decoding="async"
                               src="https://www.qsyrys.com/wp-content/uploads/elementor/thumbs/8-2-1-q34r47p335a49eunz1xolv54faq7d81g54pqf8cowc.jpg"
@@ -73,7 +73,7 @@ const Explore = () => {
                         </div>
                         <div className="property-type-info">
                           <div className="property-title">
-                            <Link href="/property-type/villa/" title="Villa">
+                            <Link to="/property-type/villa/" title="Villa">
                               Villa{" "}
                             </Link>
                           </div>
@@ -94,7 +94,7 @@ const Explore = () => {
                       <div className="property-type-inner">
                         <div className="property-type-image">
                           <Link
-                            href="/property-type/detached-villa/"
+                            to="/property-type/detached-villa/"
                             title="Detached Villa"
                           >
                             <img
@@ -109,7 +109,7 @@ const Explore = () => {
                         <div className="property-type-info">
                           <div className="property-title">
                             <Link
-                              href="/property-type/detached-villa/"
+                              to="/property-type/detached-villa/"
                               title="Detached Villa"
                             >
                               Detached Villa{" "}
@@ -141,7 +141,7 @@ const Explore = () => {
                       <div className="property-type-inner">
                         <div className="property-type-image">
                           <Link
-                            href="/property-type/apartment/"
+                            to="/property-type/apartment/"
                             title="Apartment"
                           >
                             <img
@@ -156,7 +156,7 @@ const Explore = () => {
                         <div className="property-type-info">
                           <div className="property-title">
                             <Link
-                              href="/property-type/apartment/"
+                              to="/property-type/apartment/"
                               title="Apartment"
                             >
                               Apartment{" "}
@@ -179,7 +179,7 @@ const Explore = () => {
                       <div className="property-type-inner">
                         <div className="property-type-image">
                           <Link
-                            href="/property-type/residential-complex/"
+                            to="/property-type/residential-complex/"
                             title="Residential Complex"
                           >
                             <img
@@ -194,7 +194,7 @@ const Explore = () => {
                         <div className="property-type-info">
                           <div className="property-title">
                             <Link
-                              href="/property-type/residential-complex/"
+                              to="/property-type/residential-complex/"
                               title="Residential Complex"
                             >
                               Residential Complex{" "}

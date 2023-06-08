@@ -20,7 +20,7 @@ const Footer = () => {
                   <div className="sidebar col-lg-4 col-md-12">
                     <aside id="g5plus_logo-2" className="widget widget-logo">
                       {" "}
-                      <Link href="/">
+                      <Link to="/">
                         <img className="widget-logo" src={logo} alt="Beyot" />
                       </Link>
                     </aside>
@@ -34,20 +34,20 @@ const Footer = () => {
                     >
                       {" "}
                       <div className="social-profiles circle light icon-small">
-                        <Link target="_blank" title="Twitter" href="#">
+                        <Link target="_blank" title="Twitter" to="#">
                           <i className="fa fa-twitter"></i>
                         </Link>
                         <Link
                           target="_blank"
                           title="Instagram"
-                          href="https://www.instagram.com/accounts/login/?next=/real_syrys/"
+                          to="https://www.instagram.com/accounts/login/?next=/real_syrys/"
                         >
                           <i className="fa fa-instagram"></i>
                         </Link>
                         <Link
                           target="_blank"
                           title="Facebook"
-                          href="https://www.facebook.com/realsyrys"
+                          to="https://www.facebook.com/realsyrys"
                         >
                           <i className="fa fa-facebook"></i>
                         </Link>
@@ -128,7 +128,7 @@ const Footer = () => {
                     >
                       {" "}
                       <div className="textwidget">
-                        © 2022 - QSYRYS REAL ESTATES
+                        © 2023 - QSYRYS REAL ESTATES
                       </div>
                     </aside>{" "}
                   </div>
@@ -143,7 +143,7 @@ const Footer = () => {
                             id="menu-item-6267"
                             className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-58 current_page_item menu-item-6267"
                           >
-                            <Link href="/" aria-current="page">
+                            <Link to="/" aria-current="page">
                               Home
                             </Link>
                           </li>
@@ -151,19 +151,19 @@ const Footer = () => {
                             id="menu-item-6207"
                             className="menu-item menu-item-type-custom menu-item-object-custom menu-item-6207"
                           >
-                            <Link href="/property">Properties</Link>
+                            <Link to="/property">Properties</Link>
                           </li>
                           <li
                             id="menu-item-6208"
                             className="menu-item menu-item-type-custom menu-item-object-custom menu-item-6208"
                           >
-                            <Link href="/agent">Agents</Link>
+                            <Link to="/agent">Agents</Link>
                           </li>
                           <li
                             id="menu-item-6209"
                             className="menu-item menu-item-type-custom menu-item-object-custom menu-item-6209"
                           >
-                            <Link href="#">Terms of use</Link>
+                            <Link to="#">Terms of use</Link>
                           </li>
                         </ul>
                       </div>

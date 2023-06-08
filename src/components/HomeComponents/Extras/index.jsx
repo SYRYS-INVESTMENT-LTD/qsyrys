@@ -45,7 +45,7 @@ const Extras = () => {
                                     <div className="property-heading">
                                       <h2>
                                         <Link
-                                          href="/property/a-city-penthouse/"
+                                          to="/property/a-city-penthouse/"
                                           title="A CITY PENTHOUSE"
                                         >
                                           A CITY PENTHOUSE
@@ -66,7 +66,7 @@ const Extras = () => {
                                         <i className="fa fa-map-marker"></i>
                                         <a
                                           target="_blank"
-                                          href="http://maps.google.com/?q=SYRYS%20INVESTMENT%20LTD"
+                                          to="http://maps.google.com/?q=SYRYS%20INVESTMENT%20LTD"
                                         >
                                           <span>SYRYS INVESTMENT LTD</span>
                                         </a>
@@ -161,7 +161,7 @@ const Extras = () => {
                                     <div className="property-heading">
                                       <h2>
                                         <Link
-                                          href="/property/11-a-city/"
+                                          to="/property/11-a-city/"
                                           title="1+1 A CITY"
                                         >
                                           1+1 A CITY
@@ -182,7 +182,7 @@ const Extras = () => {
                                         <i className="fa fa-map-marker"></i>
                                         <Link
                                           target="_blank"
-                                          href="http://maps.google.com/?q=SYRYS%20INVESTMENT%20LTD"
+                                          to="http://maps.google.com/?q=SYRYS%20INVESTMENT%20LTD"
                                         >
                                           <span>SYRYS INVESTMENT LTD</span>
                                         </Link>
@@ -276,7 +276,7 @@ const Extras = () => {
                                     <div className="property-heading">
                                       <h2>
                                         <Link
-                                          href="/property/luxury-villa-with-an-amazing-view/"
+                                          to="/property/luxury-villa-with-an-amazing-view/"
                                           title="Luxury Villa with an amazing view"
                                         >
                                           Luxury Villa with an amazing view
@@ -297,7 +297,7 @@ const Extras = () => {
                                         <i className="fa fa-map-marker"></i>
                                         <Link
                                           target="_blank"
-                                          href="http://maps.google.com/?q=Syrys%20Investment%20Ltd"
+                                          to="http://maps.google.com/?q=Syrys%20Investment%20Ltd"
                                         >
                                           <span>Syrys Investment Ltd</span>
                                         </Link>
@@ -390,7 +390,7 @@ const Extras = () => {
                                     <div className="property-heading">
                                       <h2>
                                         <Link
-                                          href="/property/single-house-los-angeles/"
+                                          to="/property/single-house-los-angeles/"
                                           title="Seasons City in Cyprus"
                                         >
                                           Seasons City in Cyprus
@@ -414,7 +414,7 @@ const Extras = () => {
                                         <i className="fa fa-map-marker"></i>
                                         <a
                                           target="_blank"
-                                          href="http://maps.google.com/?q=Syrys%20Investment%20Ltd"
+                                          to="http://maps.google.com/?q=Syrys%20Investment%20Ltd"
                                         >
                                           <span>Syrys Investment Ltd</span>
                                         </a>
@@ -507,7 +507,7 @@ const Extras = () => {
                                     <div className="property-heading">
                                       <h2>
                                         <Link
-                                          href="/property/restaurant-austin-tx-78702/"
+                                          to="/property/restaurant-austin-tx-78702/"
                                           title="Dreamlike Homes in a complex"
                                         >
                                           Dreamlike Homes in a complex
@@ -528,7 +528,7 @@ const Extras = () => {
                                         <i className="fa fa-map-marker"></i>
                                         <a
                                           target="_blank"
-                                          href="http://maps.google.com/?q=syrys%20investment%20ltd"
+                                          to="http://maps.google.com/?q=syrys%20investment%20ltd"
                                         >
                                           <span>syrys investment ltd</span>
                                         </a>
@@ -621,7 +621,7 @@ const Extras = () => {
                                     <div className="property-heading">
                                       <h2>
                                         <Link
-                                          href="/property/villa-4445-lamont-st-san-diego-ca-92109/"
+                                          to="/property/villa-4445-lamont-st-san-diego-ca-92109/"
                                           title="Zolive residential homes"
                                         >
                                           Zolive residential homes
@@ -642,7 +642,7 @@ const Extras = () => {
                                         <i className="fa fa-map-marker"></i>
                                         <a
                                           target="_blank"
-                                          href="http://maps.google.com/?q=SYRYS%20Investment%20Ltd"
+                                          to="http://maps.google.com/?q=SYRYS%20Investment%20Ltd"
                                         >
                                           <span>SYRYS Investment Ltd</span>
                                         </a>
@@ -748,7 +748,7 @@ const Extras = () => {
                         >
                           <SwiperSlide className="item">
                             <div className="property-item">
-                              <Link href="/property/a-city-penthouse/">
+                              <Link to="/property/a-city-penthouse/">
                                 <img
                                   decoding="async"
                                   loading="lazy"
@@ -763,7 +763,7 @@ const Extras = () => {
                           </SwiperSlide>
                           <SwiperSlide className="item">
                             <div className="property-item">
-                              <Link href="/property/11-a-city/">
+                              <Link to="/property/11-a-city/">
                                 <img
                                   decoding="async"
                                   loading="lazy"
@@ -778,7 +778,7 @@ const Extras = () => {
                           </SwiperSlide>
                           <SwiperSlide className="item">
                             <div className="property-item">
-                              <Link href="/property/luxury-villa-with-an-amazing-view/">
+                              <Link to="/property/luxury-villa-with-an-amazing-view/">
                                 <img
                                   decoding="async"
                                   loading="lazy"
@@ -793,7 +793,7 @@ const Extras = () => {
                           </SwiperSlide>
                           <SwiperSlide className="item current active">
                             <div className="property-item">
-                              <Link href="/property/single-house-los-angeles/">
+                              <Link to="/property/single-house-los-angeles/">
                                 <img
                                   decoding="async"
                                   loading="lazy"
@@ -808,7 +808,7 @@ const Extras = () => {
                           </SwiperSlide>
                           <SwiperSlide className="item">
                             <div className="property-item">
-                              <Link href="/property/restaurant-austin-tx-78702/">
+                              <Link to="/property/restaurant-austin-tx-78702/">
                                 <img
                                   decoding="async"
                                   loading="lazy"
@@ -823,7 +823,7 @@ const Extras = () => {
                           </SwiperSlide>
                           <SwiperSlide className="item">
                             <div className="property-item">
-                              <Link href="/property/villa-4445-lamont-st-san-diego-ca-92109/">
+                              <Link to="/property/villa-4445-lamont-st-san-diego-ca-92109/">
                                 <img
                                   decoding="async"
                                   loading="lazy"

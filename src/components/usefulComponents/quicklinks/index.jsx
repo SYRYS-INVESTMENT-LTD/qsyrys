@@ -30,7 +30,7 @@ const Quicklinks = () => {
                         <div className="card-body">
                           <Link
                             className="ube-entry-post-thumb card-img bg-card"
-                            href="/residence-permit-permanent-residence-citizenship/"
+                            to="/residence-permit-permanent-residence-citizenship/"
                        
                           ></Link>
                           <div className="card-img-overlay">
@@ -38,7 +38,7 @@ const Quicklinks = () => {
                               <div className="item category">
                                 <ul className="ube-term-list list-inline">
                                   <li className="list-inline-item">
-                                    <Link href="/category/useful-information/">
+                                    <Link to="/category/useful-information/">
                                       Useful Information
                                     </Link>
                                   </li>
@@ -49,7 +49,7 @@ const Quicklinks = () => {
                               <h2 className="ube-entry-title card-title">
                                 <Link
                                   className="ube-post-link"
-                                  href="/residence-permit-permanent-residence-citizenship/"
+                                  to="/residence-permit-permanent-residence-citizenship/"
                                   title="RESIDENCE PERMIT, PERMANENT RESIDENCE, CITIZENSHIP"
                                 >
                                   RESIDENCE PERMIT, PERMANENT RESIDENCE,
@@ -69,14 +69,14 @@ const Quicklinks = () => {
                         <div className="card-body">
                           <Link
                             className="ube-entry-post-thumb card-img bg-card"
-                            href="/investments/"
+                            to="/investments/"
                           ></Link>
                           <div className="card-img-overlay">
                             <div className="ube-post-terms">
                               <div className="item category">
                                 <ul className="ube-term-list list-inline">
                                   <li className="list-inline-item">
-                                    <Link href="/category/useful-information/">
+                                    <Link to="/category/useful-information/">
                                       Useful Information
                                     </Link>
                                   </li>
@@ -87,7 +87,7 @@ const Quicklinks = () => {
                               <h2 className="ube-entry-title card-title">
                                 <Link
                                   className="ube-post-link"
-                                  href="/investments/"
+                                  to="/investments/"
                                   title="INVESTMENTS"
                                 >
                                   INVESTMENTS{" "}
@@ -106,14 +106,14 @@ const Quicklinks = () => {
                         <div className="card-body">
                           <Link
                             className="ube-entry-post-thumb card-img bg-card"
-                            href="/inspection-tour/"
+                            to="/inspection-tour/"
                           ></Link>
                           <div className="card-img-overlay">
                             <div className="ube-post-terms">
                               <div className="item category">
                                 <ul className="ube-term-list list-inline">
                                   <li className="list-inline-item">
-                                    <Link href="/category/useful-information/">
+                                    <Link to="/category/useful-information/">
                                       Useful Information
                                     </Link>
                                   </li>
@@ -124,7 +124,7 @@ const Quicklinks = () => {
                               <h2 className="ube-entry-title card-title">
                                 <Link
                                   className="ube-post-link"
-                                  href="/inspection-tour/"
+                                  to="/inspection-tour/"
                                   title="INSPECTION TOUR"
                                 >
                                   INSPECTION TOUR{" "}

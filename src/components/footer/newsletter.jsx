@@ -6,6 +6,7 @@ const Newsletter = () => {
       <div className="container">
         <div className="elementor elementor-194">
           <section className="elementor-section elementor-top-section elementor-element elementor-element-5b312cd elementor-section-content-middle elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default w-[545px] -left-[15px]">
+            
             <div className="elementor-container elementor-column-gap-default">
               <div
                 className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-dab8a49"

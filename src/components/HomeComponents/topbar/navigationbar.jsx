@@ -196,7 +196,7 @@ const NavigationBar = () => {
                 </div>{" "}
               </div>
               <div className="mobile-search-button">
-                <Link href="#" className="prevent-default search-standard top-[3px] relative">
+                <Link to="#" className="prevent-default search-standard top-[3px] relative">
                   <i className="icon-search2"></i>
                 </Link>{" "}
               </div>
@@ -227,7 +227,7 @@ const NavigationBar = () => {
                   className="menu-item menu-item-type-custom menu-item-object-custom x-menu-item x-item-menu-standard"
                 >
                   <Link
-                    href="/property-status/for-sale/"
+                    to="/property-status/for-sale"
                     className="x-menu-a-text"
                   >
                     <span className="x-menu-text">Sales</span>
@@ -238,7 +238,7 @@ const NavigationBar = () => {
                   className="menu-item menu-item-type-custom menu-item-object-custom x-menu-item x-item-menu-standard"
                 >
                   <Link
-                    href="/property-status/for-rent/"
+                    to="/property-status/for-rent/"
                     className="x-menu-a-text"
                   >
                     <span className="x-menu-text">Rents</span>
@@ -248,7 +248,7 @@ const NavigationBar = () => {
                   id="menu-item-mobile-9502"
                   className="menu-item menu-item-type-post_type menu-item-object-page x-menu-item x-item-menu-standard"
                 >
-                  <Link href="/investment/" className="x-menu-a-text">
+                  <Link to="/investment/" className="x-menu-a-text">
                     <span className="x-menu-text">Investment</span>
                   </Link>
                 </li>
@@ -256,7 +256,7 @@ const NavigationBar = () => {
                   id="menu-item-mobile-8502"
                   className="menu-item menu-item-type-post_type menu-item-object-page x-menu-item x-item-menu-standard"
                 >
-                  <Link href="/useful-information/" className="x-menu-a-text">
+                  <Link to="/useful-information/" className="x-menu-a-text">
                     <span className="x-menu-text">Useful Information</span>
                   </Link>
                 </li>
@@ -264,7 +264,7 @@ const NavigationBar = () => {
                   id="menu-item-mobile-6304"
                   className="menu-item menu-item-type-post_type menu-item-object-page x-menu-item x-item-menu-standard"
                 >
-                  <Link href="/about-us/" className="x-menu-a-text">
+                  <Link to="/about-us" className="x-menu-a-text">
                     <span className="x-menu-text">About Us</span>
                   </Link>
                 </li>

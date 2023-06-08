@@ -96,7 +96,7 @@ const BaseUsefulComponent = () => {
               <div className="elementor-widget-container">
                 <Link
                   className="ube-btn btn btn-md btn-rounded btn-primary"
-                  href="/residence-permit-permanent-residence-citizenship/"
+                  to="/residence-permit-permanent-residence-citizenship/"
                 >
                   <span className="ube-btn-text">Learn more</span>
                 </Link>
@@ -143,7 +143,7 @@ const BaseUsefulComponent = () => {
               <div className="elementor-widget-container">
                 <Link
                   className="ube-btn btn btn-md btn-rounded btn-primary"
-                  href="/investments/"
+                  to="/investments/"
                 >
                   <span className="ube-btn-text">Learn more</span>
                 </Link>
@@ -187,7 +187,7 @@ const BaseUsefulComponent = () => {
               <div className="elementor-widget-container">
                 <Link
                   className="ube-btn btn btn-md btn-rounded btn-primary"
-                  href="/inspection-tour/"
+                  to="/inspection-tour/"
                 >
                   <span className="ube-btn-text">Learn more</span>
                 </Link>
