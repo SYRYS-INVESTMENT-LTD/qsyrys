@@ -1012,8 +1012,8 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-        <HeaderComponent />
       </div>
+      <HeaderComponent />
     </>
   );
 };

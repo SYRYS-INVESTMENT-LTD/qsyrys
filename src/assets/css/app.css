@@ -8236,6 +8236,21 @@ input.ui-button::-moz-focus-inner,button.ui-button::-moz-focus-inner {
     height: 100px
 }
 
+.fa, .fas, .fab, .fal, .far, .fad {
+    font-family: FontAwesome;
+    font-weight: 900;
+}
+
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
 .ui-slider-vertical .ui-slider-handle {
     left: -.3em;
     margin-left: 0;
