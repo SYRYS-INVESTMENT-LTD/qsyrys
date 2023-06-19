@@ -15833,14 +15833,14 @@ a.btn.disabled,fieldset:disabled a.btn {
     display: block;
     min-height: 1.5rem;
     padding-left: 1.5rem;
-    -webkit-print-color-adjust: exact;
-    color-adjust: exact
+    -webkit-print-print-color-adjust: exact;
+    print-color-adjust: exact;
 }
 
 .custom-control-inline {
     display: -ms-inline-flexbox;
     display: inline-flex;
-    margin-right: 1rem
+    margin-right: 1rem;
 }
 
 .custom-control-input {
@@ -15849,7 +15849,7 @@ a.btn.disabled,fieldset:disabled a.btn {
     z-index: -1;
     width: 1rem;
     height: 1.25rem;
-    opacity: 0
+    opacity: 0;
 }
 
 .custom-control-input:checked~.custom-control-label::before {
@@ -42083,15 +42083,12 @@ button.swiper-pagination-bullet {
     --widgets-spacing: 20px
 }
 
-{
-}
-
 h1.entry-title {
     display: var(--page-title-display)
 }
 
 .elementor-kit-4695 e-page-transition {
-    background-color: #F5F5F5
+    background-color: #F5F5F5;
 }
 
 @media(max-width: 1024px) {
@@ -42228,7 +42225,7 @@ h1.entry-title {
 .elementor-animated-content:hover .elementor-animated-item--exit-to-left {
     -webkit-transform: translateX(-1000px);
     -ms-transform: translateX(-1000px);
-    transform: translateX(-1000px)
+    transform: translateX(-1000px);
 }
 
 .elementor-animated-content:hover .elementor-animated-item--exit-to-top {
@@ -42240,23 +42237,23 @@ h1.entry-title {
 .elementor-animated-content:hover .elementor-animated-item--exit-to-bottom {
     -webkit-transform: translateY(600px);
     -ms-transform: translateY(600px);
-    transform: translateY(600px)
+    transform: translateY(600px);
 }
 
 .elementor-animated-content:hover .elementor-animated-item--exit-to-bottom,.elementor-animated-content:hover .elementor-animated-item--exit-to-left,.elementor-animated-content:hover .elementor-animated-item--exit-to-right,.elementor-animated-content:hover .elementor-animated-item--exit-to-top {
-    opacity: 0
+    opacity: 0;
 }
 
 .elementor-animated-content:hover .elementor-animated-item--move-right {
     -webkit-transform: translateX(30px);
     -ms-transform: translateX(30px);
-    transform: translateX(30px)
+    transform: translateX(30px);
 }
 
 .elementor-animated-content:hover .elementor-animated-item--move-left {
     -webkit-transform: translateX(-30px);
     -ms-transform: translateX(-30px);
-    transform: translateX(-30px)
+    transform: translateX(-30px);
 }
 
 .elementor-animated-content:hover .elementor-animated-item--move-up {
