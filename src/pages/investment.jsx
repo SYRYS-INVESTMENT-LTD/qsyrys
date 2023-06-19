@@ -48,7 +48,7 @@ const Investment = () => {
                         data-widget_type="heading.default"
                       >
                         <div class="elementor-widget-container">
-                          <h2 class="elementor-heading-title elementor-size-default">
+                          <h2 class="!text-[#121212] elementor-heading-title elementor-size-default">
                             INVESTMENT
                           </h2>{" "}
                         </div>

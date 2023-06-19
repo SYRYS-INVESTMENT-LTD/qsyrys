@@ -29,21 +29,10 @@ const NavigationBar = () => {
 
 
         document.querySelector(".toggle-icon-wrapper.toggle-mobile-menu").addEventListener('click', (e) => {
-          if (
-            document
-              .querySelector(".toggle-icon-wrapper.toggle-mobile-menu")
-              .classList.contains("in") == false
-          ) {
-            document
-              .querySelector(".toggle-icon-wrapper.toggle-mobile-menu")
-              .classList.add("in");
-            document.body.classList.add("mobile-nav-in");
-          } else {
-            document
-              .querySelector(".toggle-icon-wrapper.toggle-mobile-menu")
-              .classList.remove("in");
-            document.body.classList.remove("mobile-nav-in");
-          }
+          document
+            .querySelector(".toggle-icon-wrapper.toggle-mobile-menu")
+            .classList.add("in");
+          document.body.classList.add("mobile-nav-in");
         });
 
         if (document.querySelector(".mobile-nav-overlay"))

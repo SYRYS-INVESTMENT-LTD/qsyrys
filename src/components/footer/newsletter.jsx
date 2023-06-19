@@ -3,9 +3,9 @@ import mail from "../../assets/img/icon-letter.png";
 const Newsletter = () => {
   return (
     <div className="footer-above-wrapper">
-      <div className="container">
+      <div>
         <div className="elementor elementor-194">
-          <section className="elementor-section elementor-top-section elementor-element elementor-element-5b312cd elementor-section-content-middle elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default w-[545px] -left-[15px]">
+          <section className="elementor-section elementor-top-section elementor-element elementor-element-5b312cd elementor-section-content-middle elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default">
             
             <div className="elementor-container elementor-column-gap-default">
               <div
