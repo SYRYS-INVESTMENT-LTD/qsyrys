@@ -48,10 +48,10 @@ const OurAgents = () => {
                       loop={true}
                       breakpoints={{
                         992: {
-                          slidesPerView: 2,
+                          slidesPerView: 3,
                         },
                         480: {
-                          slidesPerView: 1,
+                          slidesPerView: 2,
                         },
                       }}
                       autoplay={{
