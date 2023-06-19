@@ -40,7 +40,7 @@ const OurAgents = () => {
             >
               <div className="elementor-widget-container">
                 <div className="ube-agents">
-                  <div className="ere-agent-wrap">
+                  <div className="ere-agent-wrap py-3">
                     <Swiper
                       spaceBetween={30}
                       slidesPerView={4}
@@ -70,13 +70,15 @@ const OurAgents = () => {
                                 title="Andrei Makeev"
                                 href="https://www.qsyrys.com/agent/andrei-makeev/"
                               >
-                                <img
-                                  width="270"
-                                  height="340"
-                                  src="https://www.qsyrys.com/wp-content/uploads/2017/01/SYRYS-AGENT-C1-270x340.png"
-                                  alt="Andrei Makeev"
-                                  title="Andrei Makeev"
-                                />
+                                <div className="overflow-hidden h-[340px]">
+                                  <img
+                                    width="270"
+                                    height="340"
+                                    src="https://www.qsyrys.com/wp-content/uploads/2017/01/SYRYS-AGENT-C1-270x340.png"
+                                    alt="Andrei Makeev"
+                                    title="Andrei Makeev"
+                                  />
+                                </div>
                               </a>
                             </div>
                             <div className="agent-content">
@@ -89,7 +91,6 @@ const OurAgents = () => {
                                     Andrei Makeev
                                   </a>
                                 </h2>
-                                <span>1 property</span>
                               </div>
                               <div className="agent-social">
                                 <a
@@ -127,71 +128,7 @@ const OurAgents = () => {
                           </div>
                         </div>
                       </SwiperSlide>
-                      <SwiperSlide className="item">
-                        <div className="agent-item ">
-                          <div className="agent-item-inner">
-                            <div className="agent-avatar">
-                              <a
-                                title="Vafadar Negin"
-                                href="https://www.qsyrys.com/agent/vafadar-negin/"
-                              >
-                                <img
-                                  width="270"
-                                  height="340"
-                                  src="https://www.qsyrys.com/wp-content/uploads/2017/01/negin-270x340.png"
-                                  alt="Vafadar Negin"
-                                  title="Vafadar Negin"
-                                />
-                              </a>
-                            </div>
-                            <div className="agent-content">
-                              <div className="agent-info">
-                                <h2 className="agent-name">
-                                  <a
-                                    title="Vafadar Negin"
-                                    href="https://www.qsyrys.com/agent/vafadar-negin/"
-                                  >
-                                    Vafadar Negin
-                                  </a>
-                                </h2>
-                                <span>0 properties</span>
-                              </div>
-                              <div className="agent-social">
-                                <a
-                                  title="Facebook"
-                                  href="https://www.facebook.com/realsyrys"
-                                >
-                                  <i className="fa fa-facebook"></i>
-                                </a>
-                                <a
-                                  title="Email"
-                                  href="mailto:negin.vafadar@qsyrys.com"
-                                >
-                                  <i className="fa fa-envelope"></i>
-                                </a>
-                                <a
-                                  title="Linkedin"
-                                  href="https://www.linkedin.com/company/syrysinvestment"
-                                >
-                                  <i className="fa fa-linkedin"></i>
-                                </a>
-                                <a
-                                  title="Instagram"
-                                  href="https://instagram.com/qsyrys_ir"
-                                >
-                                  <i className="fa fa-instagram"></i>
-                                </a>
-                                <a
-                                  title="Youtube"
-                                  href="https://www.youtube.com/@real_syrys"
-                                >
-                                  <i className="fa fa-youtube-play"></i>
-                                </a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </SwiperSlide>
+
                       <SwiperSlide className="item">
                         <div className="agent-item ">
                           <div className="agent-item-inner">
@@ -200,13 +137,15 @@ const OurAgents = () => {
                                 title="Temile Emmanuel"
                                 href="https://www.qsyrys.com/agent/temile-emmanuel/"
                               >
-                                <img
-                                  width="270"
-                                  height="340"
-                                  src="https://www.qsyrys.com/wp-content/uploads/2017/01/Untitled-1-copy-270x340.png"
-                                  alt="Temile Emmanuel"
-                                  title="Temile Emmanuel"
-                                />
+                                <div className="overflow-hidden h-[340px]">
+                                  <img
+                                    width="270"
+                                    height="340"
+                                    src="https://www.qsyrys.com/wp-content/uploads/2017/01/Untitled-1-copy-270x340.png"
+                                    alt="Temile Emmanuel"
+                                    title="Temile Emmanuel"
+                                  />
+                                </div>
                               </a>
                             </div>
                             <div className="agent-content">
@@ -219,7 +158,6 @@ const OurAgents = () => {
                                     Temile Emmanuel
                                   </a>
                                 </h2>
-                                <span>3 properties</span>
                               </div>
                               <div className="agent-social">
                                 <a
@@ -265,13 +203,15 @@ const OurAgents = () => {
                                 title="Bandar Zuhair Ali Asiri"
                                 href="https://www.qsyrys.com/agent/bandar-zuhair-ali-asiri/"
                               >
-                                <img
-                                  width="270"
-                                  height="340"
-                                  src="https://www.qsyrys.com/wp-content/uploads/2022/12/agent-scaled.jpg"
-                                  alt="Bandar Zuhair Ali Asiri"
-                                  title="Bandar Zuhair Ali Asiri"
-                                />
+                                <div className="overflow-hidden h-[340px]">
+                                  <img
+                                    width="270"
+                                    height="340"
+                                    src="https://www.qsyrys.com/wp-content/uploads/2022/12/agent-scaled.jpg"
+                                    alt="Bandar Zuhair Ali Asiri"
+                                    title="Bandar Zuhair Ali Asiri"
+                                  />
+                                </div>
                               </a>
                             </div>
                             <div className="agent-content">
@@ -284,7 +224,6 @@ const OurAgents = () => {
                                     Bandar Zuhair Ali Asiri
                                   </a>
                                 </h2>
-                                <span>0 properties</span>
                               </div>
                               <div className="agent-social">
                                 <a
