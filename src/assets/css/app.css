@@ -9325,6 +9325,7 @@ body .ui-tooltip {
     position: relative;
     min-height: 1px;
     float: left;
+    min-width:225px;
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none
 }
