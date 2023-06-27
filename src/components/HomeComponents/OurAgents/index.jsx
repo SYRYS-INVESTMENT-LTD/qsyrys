@@ -54,7 +54,7 @@ const OurAgents = () => {
                           slidesPerView: 2,
                         },
                       }}
-                      autoplay={{
+                      autoPlay={{
                         delay: 3000,
                         disableOnInteraction: false,
                       }}

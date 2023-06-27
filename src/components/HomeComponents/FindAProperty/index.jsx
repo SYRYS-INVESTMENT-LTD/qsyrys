@@ -48,9 +48,6 @@ const FindAProperty = () => {
                       <Swiper
                         spaceBetween={30}
                         slidesPerView={4}
-                        breakpoints={{
-                          
-                        }}
                         pagination={{ clickable: true }}
                         navigation={{
                           prevEl: ".owl-prev",

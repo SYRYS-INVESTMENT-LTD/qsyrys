@@ -27,39 +27,39 @@ const Investment = () => {
             <div
               data-elementor-type="wp-page"
               data-elementor-id="1057"
-              class="elementor elementor-1057"
+              className="elementor elementor-1057"
             >
               <section
-                class="elementor-section elementor-top-section elementor-element elementor-element-cc9be35 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                className="elementor-section elementor-top-section elementor-element elementor-element-cc9be35 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="cc9be35"
                 data-element_type="section"
               >
-                <div class="elementor-container elementor-column-gap-default">
+                <div className="elementor-container elementor-column-gap-default">
                   <div
-                    class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-bc15e22"
+                    className="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-bc15e22"
                     data-id="bc15e22"
                     data-element_type="column"
                   >
-                    <div class="elementor-widget-wrap elementor-element-populated">
+                    <div className="elementor-widget-wrap elementor-element-populated">
                       <div
-                        class="elementor-element elementor-element-80d326c elementor-widget elementor-widget-heading"
+                        className="elementor-element elementor-element-80d326c elementor-widget elementor-widget-heading"
                         data-id="80d326c"
                         data-element_type="widget"
                         data-widget_type="heading.default"
                       >
-                        <div class="elementor-widget-container">
-                          <h2 class="!text-[#121212] elementor-heading-title elementor-size-default">
+                        <div className="elementor-widget-container">
+                          <h2 className="!text-[#121212] elementor-heading-title elementor-size-default">
                             INVESTMENT
                           </h2>{" "}
                         </div>
                       </div>
                       <div
-                        class="elementor-element elementor-element-35723aa elementor-widget elementor-widget-text-editor"
+                        className="elementor-element elementor-element-35723aa elementor-widget elementor-widget-text-editor"
                         data-id="35723aa"
                         data-element_type="widget"
                         data-widget_type="text-editor.default"
                       >
-                        <div class="elementor-widget-container">
+                        <div className="elementor-widget-container">
                           <p>
                             <strong>
                               Welcome to our investment section! We specialize
@@ -106,18 +106,18 @@ const Investment = () => {
                     </div>
                   </div>
                   <div
-                    class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-4833096"
+                    className="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-4833096"
                     data-id="4833096"
                     data-element_type="column"
                   >
-                    <div class="elementor-widget-wrap elementor-element-populated">
+                    <div className="elementor-widget-wrap elementor-element-populated">
                       <div
-                        class="elementor-element elementor-element-615c7a6 elementor-widget elementor-widget-image"
+                        className="elementor-element elementor-element-615c7a6 elementor-widget elementor-widget-image"
                         data-id="615c7a6"
                         data-element_type="widget"
                         data-widget_type="image.default"
                       >
-                        <div class="elementor-widget-container">
+                        <div className="elementor-widget-container">
                           <img
                             decoding="async"
                             src={icon}
@@ -128,22 +128,22 @@ const Investment = () => {
                         </div>
                       </div>
                       <div
-                        class="elementor-element elementor-element-faa1350 elementor-align-center elementor-widget elementor-widget-ube-heading"
+                        className="elementor-element elementor-element-faa1350 elementor-align-center elementor-widget elementor-widget-ube-heading"
                         data-id="faa1350"
                         data-element_type="widget"
                         data-widget_type="ube-heading.default"
                       >
-                        <div class="elementor-widget-container">
-                          <div class="ube-heading ube-heading-divider-after">
-                            <h6 class="ube-heading-sub-title">
-                              <span class="icon icon-center"></span>MY "Given a
+                        <div className="elementor-widget-container">
+                          <div className="ube-heading ube-heading-divider-after">
+                            <h6 className="ube-heading-sub-title">
+                              <span className="icon icon-center"></span>MY "Given a
                               10% chance of a 100 times payoff, you should take
                               that bet every time." — Jeff Bezos
                             </h6>
-                            <h2 class="ube-heading-title">
+                            <h2 className="ube-heading-title">
                               MORE Details Coming SOON
                             </h2>
-                            <div class="ube-heading-divider"></div>
+                            <div className="ube-heading-divider"></div>
                           </div>{" "}
                         </div>
                       </div>

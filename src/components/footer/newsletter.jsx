@@ -113,7 +113,7 @@ const Newsletter = () => {
                               name="_mc4wp_honeypot"
                               value=""
                               tabIndex="-1"
-                              autocomplete="off"
+                              autoComplete="off"
                             />
                           </label>
                           <input

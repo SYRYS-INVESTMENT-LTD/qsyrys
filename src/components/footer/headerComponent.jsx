@@ -30,7 +30,7 @@ const HeaderComponent = () => {
           className="modal modal-login fade pr-[17px]"
           id="ere_signin_modal"
           tabIndex="-1"
-          ariaModal="true"
+          aria-modal="true"
           role="dialog"
         >
           <div className="modal-dialog" role="document">
@@ -49,8 +49,8 @@ const HeaderComponent = () => {
                 <form
                   className="ere-login"
                   method="post"
-                  enctype="multipart/form-data"
-                  novalidate="novalidate"
+                  encType="multipart/form-data"
+                  noValidate="novalidate"
                 >
                   <div className="form-group control-username">
                     <input
@@ -99,7 +99,7 @@ const HeaderComponent = () => {
               >
                 <div className="ere-resset-password-wrap">
                   <div className="ere_messages message ere_messages_reset_password"></div>
-                  <form method="post" enctype="multipart/form-data">
+                  <form method="post" encType="multipart/form-data">
                     <div className="form-group control-username">
                       <input
                         name="user_login"

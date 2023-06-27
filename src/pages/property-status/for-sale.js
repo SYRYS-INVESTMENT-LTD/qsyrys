@@ -172,7 +172,7 @@ const Sale = () => {
             slidesPerView={1}
             grabCursor={true}
             pagination={{ clickable: true }}
-            autoplay={{
+            autoPlay={{
 delay: 6000,
 disableOnInteraction: false,
             }}

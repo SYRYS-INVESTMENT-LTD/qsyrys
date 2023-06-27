@@ -794,11 +794,11 @@ const AboutUs = () => {
                             <video
                               className="elementor-video"
                               src={video}
-                              autoplay=""
+                              autoPlay=""
                               loop=""
                               muted="muted"
-                              playsinline=""
-                              controlslist="nodownload"
+                              playsInline=""
+                              controlsList="nodownload"
                             ></video>
                           </div>
                         </div>
@@ -875,7 +875,7 @@ const AboutUs = () => {
                                   method="post"
                                   className="wpcf7-form init"
                                   aria-label="Contact form"
-                                  novalidate="novalidate"
+                                  noValidate="novalidate"
                                   data-status="init"
                                 >
                                   <div className="hidden">

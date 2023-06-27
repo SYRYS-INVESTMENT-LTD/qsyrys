@@ -1,6 +1,6 @@
 import "../../../assets/css/ResidentApp.css";
-import phone from "../../../assets/img/iphone-black-114x300.png";
-import phone2 from "../../../assets/img/iphone-black.png";
+import phone_alt from "../../../assets/img/mockup.png"
+
 
 const ResidentApp = () => {
   return (
@@ -23,7 +23,7 @@ const ResidentApp = () => {
                 data-element_type="widget"
                 data-widget_type="ube-heading.default"
               >
-                <div className="elementor-widget-container">
+                <div className="elementor-widget-container ">
                   <div className="ube-heading">
                     <h2 className="ube-heading-title">
                       Simplified Property Management.
@@ -87,18 +87,16 @@ const ResidentApp = () => {
             data-element_type="column"
           >
             <div className="elementor-widget-wrap elementor-element-populated">
-              <div className="elementor-element elementor-element-3f0a6ed elementor-widget__width-auto elementor-absolute elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-image">
-                <div className="elementor-widget-container">
+              <div className="elementor-element elementor-element-3f0a6ed elementor-widget__width-auto elementor-absolute elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-image !top-[60px]">
+                <div className="elementor-widget-container relative w-[500px] h-full">
                   <img
                     decoding="async"
                     width="207"
                     height="547"
-                    src={phone2}
-                    className="attachment-full size-full wp-image-61"
-                    alt=""
+                    src={phone_alt}
+                    className="attachment-full ml-1 !w-[500px] size-full wp-image-61"
+                    alt="residents-app"
                     loading="lazy"
-                    srcset={`${phone2} 207w, ${phone} 114w`}
-                    sizes="(max-width: 207px) 100vw, 207px"
                   />{" "}
                 </div>
               </div>
