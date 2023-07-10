@@ -1,8 +1,27 @@
 import { Link } from "react-router-dom";
 import logo from '../../../assets/img/logoSmall.png'
+import { useEffect } from "react";
 
 const LanguageBar = () => {
 
+  useEffect(() => {
+
+    window.addEventListener("scroll", () => {
+      const elem = document.querySelector(".sticky-region");
+
+      if (window.scrollY > 47) {
+
+        if (elem) elem.style.position = "fixed";
+
+        if (elem) elem.style.top = "0px";
+        
+      } else {
+        if (elem) elem.style.position = "absolute";
+        if (elem) elem.style.top = null;
+      }
+    });
+
+  }, [])
   
   return (
     <header className="main-header header-1">
