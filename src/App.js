@@ -6,7 +6,7 @@ import Investment from "./pages/investment";
 import Rent from "./pages/property-status/for-rent";
 import Sale from "./pages/property-status/for-sale";
 import Overview from "./pages/overview";
-
+import E404page from "./pages/e404page";
 
 const App = () => {
 
@@ -20,6 +20,7 @@ const App = () => {
           <Route path="/investment" element={<Investment />}/>
           <Route path="/property/:id" element={<Overview />} />
           <Route path="/about-us" element={<AboutUs />} />
+          <Route path="*" element={<E404page />} />
         </Routes>          
       </Router>
   );

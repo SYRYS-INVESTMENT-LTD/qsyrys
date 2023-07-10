@@ -17,7 +17,6 @@ import Tour from "../components/HomeComponents/Tour";
 import ResidentApp from "../components/HomeComponents/ResidentApp";
 import Footer from "../components/footer";
 import { useEffect, useState } from "react";
-import "../assets/css/propertysingle.css";
 
 const Home = () => {
 

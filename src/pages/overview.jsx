@@ -9,6 +9,7 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
+import "../assets/css/propertysingle.css";
 
 import { Link } from "react-router-dom";
 
