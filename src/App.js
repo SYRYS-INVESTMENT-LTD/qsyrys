@@ -5,6 +5,8 @@ import AboutUs from "./pages/about-us";
 import Investment from "./pages/investment";
 import Rent from "./pages/property-status/for-rent";
 import Sale from "./pages/property-status/for-sale";
+import Overview from "./pages/overview";
+
 
 const App = () => {
 
@@ -16,6 +18,7 @@ const App = () => {
           <Route path="/property-status/for-sale" element={<Sale />} />
         <Route path="/property-status/for-rent" element={<Rent />} />
           <Route path="/investment" element={<Investment />}/>
+          <Route path="/property/:id" element={<Overview />} />
           <Route path="/about-us" element={<AboutUs />} />
         </Routes>          
       </Router>

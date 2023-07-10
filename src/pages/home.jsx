@@ -1,7 +1,6 @@
 import LanguageBar from "../components/HomeComponents/topbar/languagebar";
 import NavigationBar from "../components/HomeComponents/topbar/navigationbar";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import "swiper/css";
 import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper";
@@ -17,9 +16,22 @@ import Explore from "../components/HomeComponents/Explore";
 import Tour from "../components/HomeComponents/Tour";
 import ResidentApp from "../components/HomeComponents/ResidentApp";
 import Footer from "../components/footer";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import "../assets/css/propertysingle.css";
 
 const Home = () => {
+
+  const [status, setStatus] = useState("for-rent");
+
+  const [bedrooms, setBedrooms] = useState('')
+  const [type, setType] = useState('')
+  const [bathrooms, setBathrooms] = useState('')
+  const [minPrice, setMinPrice] = useState('')
+  const [maxPrice, setMaxPrice] = useState('')
+  const [propId, setPropId] = useState('')
+  const [maxSize, setMaxSize] = useState('')
+  const [minSize, setMinSize] = useState('')
+
 
   const readjustNav = () => {
     const elem = document.querySelector(
@@ -80,8 +92,6 @@ const Home = () => {
                           modules={[Navigation, Autoplay]}
                           className="property-content owl-carousel manual owl-loaded owl-drag"
                           onSwiper={(swiper) => readjustNav()}
-                          
-
                         >
                           <SwiperSlide className="item">
                             <div className="property-item scale-100 opacity-100">
@@ -102,7 +112,7 @@ const Home = () => {
                                       <div className="property-heading">
                                         <h2>
                                           <a
-                                            href="https://www.qsyrys.com/property/11-a-city/"
+                                            href="/property/11-a-city/"
                                             title="1+1 A CITY"
                                           >
                                             1+1 A CITY
@@ -198,7 +208,7 @@ const Home = () => {
                                       <div className="property-heading">
                                         <h2>
                                           <a
-                                            href="https://www.qsyrys.com/property/luxury-villa-with-an-amazing-view/"
+                                            href="/property/luxury-villa-with-an-amazing-view/"
                                             title="Luxury Villa with an amazing view"
                                           >
                                             Luxury Villa with an amazing view
@@ -294,7 +304,7 @@ const Home = () => {
                                       <div className="property-heading">
                                         <h2>
                                           <a
-                                            href="https://www.qsyrys.com/property/a-city-penthouse/"
+                                            href="/property/a-city-penthouse/"
                                             title="A CITY PENTHOUSE"
                                           >
                                             A CITY PENTHOUSE
@@ -390,7 +400,7 @@ const Home = () => {
                                       <div className="property-heading">
                                         <h2>
                                           <a
-                                            href="https://www.qsyrys.com/property/single-house-los-angeles/"
+                                            href="/property/single-house-los-angeles/"
                                             title="Seasons City in Cyprus"
                                           >
                                             Seasons City in Cyprus
@@ -489,7 +499,7 @@ const Home = () => {
                                       <div className="property-heading">
                                         <h2>
                                           <a
-                                            href="https://www.qsyrys.com/property/apartment-morden-santa-monica-los-angeles/"
+                                            href="/property/apartment-morden-santa-monica-los-angeles/"
                                             title="4+1 Luxury villa in a residence"
                                           >
                                             4+1 Luxury villa in a residence
@@ -585,7 +595,7 @@ const Home = () => {
                                       <div className="property-heading">
                                         <h2>
                                           <a
-                                            href="https://www.qsyrys.com/property/restaurant-austin-tx-78702/"
+                                            href="/property/restaurant-austin-tx-78702/"
                                             title="Dreamlike Homes in a complex"
                                           >
                                             Dreamlike Homes in a complex
@@ -713,7 +723,6 @@ const Home = () => {
             className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-350a993f bg-dark-left"
             data-id="350a993f"
             data-element_type="column"
-            data-settings='{"background_background":"classic"}'
           >
             <div className="elementor-widget-wrap elementor-element-populated">
               <div
@@ -744,16 +753,22 @@ const Home = () => {
                                   data-default-value=""
                                 />
                                 <button
+                                  onClick={() => {
+                                    setStatus("for-rent");
+                                  }}
                                   type="button"
                                   data-value="for-rent"
-                                  className="btn-status-filter active"
+                                  className={`btn-status-filter ${status === "for-rent" && "active"}`}
                                 >
                                   For Rent
                                 </button>
                                 <button
                                   type="button"
                                   data-value="for-sale"
-                                  className="btn-status-filter"
+                                  onClick={() => {
+                                    setStatus("for-sale");
+                                  }}
+                                  className={`btn-status-filter ${status === "for-sale" && "active"}`}
                                 >
                                   For Sale
                                 </button>
@@ -761,14 +776,17 @@ const Home = () => {
                               <div className="row">
                                 <div className="col-lg-4 col-md-6 col-12 form-group">
                                   <select
+                                    onChange={(w) => {
+                                      setType(w.target.value)
+                                    }}
                                     name="type"
                                     title="Property Types"
                                     className="search-field form-control"
-                                    data-default-value=""
+                                    value={type}
                                   >
                                     <option value="apartment">Apartment</option>
                                     <option value="bungalow">Bungalow</option>
-                                    <option value="detached-villa">
+                                    <option value="detachedvilla">
                                       Detached Villa
                                     </option>
                                     <option value="hotel">Hotel</option>
@@ -776,18 +794,18 @@ const Home = () => {
                                     <option value="land">Land</option>
                                     <option value="office">Office</option>
                                     <option value="penthouse">Penthouse</option>
-                                    <option value="residential-complex">
+                                    <option value="residentialcomplex">
                                       Residential Complex
                                     </option>
                                     <option value="restaurant">
                                       Restaurant
                                     </option>
-                                    <option value="semi-detached-villa">
+                                    <option value="semidetachedvilla">
                                       Semi Detached Villa
                                     </option>
                                     <option value="shop">Shop</option>
                                     <option value="studio">Studio</option>
-                                    <option value="twin-villa">
+                                    <option value="twinvilla">
                                       Twin Villa
                                     </option>
                                     <option value="villa">Villa</option>{" "}
@@ -801,7 +819,10 @@ const Home = () => {
                                     name="bedrooms"
                                     title="Property Bedrooms"
                                     className="search-field form-control"
-                                    data-default-value=""
+                                    value={bedrooms}
+                                    onChange={(w) => {
+                                      setBedrooms(w.target.value)
+                                    }}
                                   >
                                     <option value="">Any Bedrooms </option>
                                     <option value="1">1</option>
@@ -819,9 +840,12 @@ const Home = () => {
                                 <div className="col-lg-4 col-md-6 col-12 form-group">
                                   <select
                                     name="bathrooms"
+                                    value={bathrooms}
                                     title="Property Bathrooms"
                                     className="search-field form-control"
-                                    data-default-value=""
+                                    onChange={(w) => {
+                                      setBathrooms(w.target.value)
+                                    }}
                                   >
                                     <option value="">Any Bathrooms </option>
                                     <option value="1">1</option>
@@ -840,6 +864,10 @@ const Home = () => {
                                   <select
                                     name="min-price"
                                     title="Min Price"
+                                    value={minPrice}
+                                    onChange={(w) => {
+                                      setMinPrice(w.target.value)
+                                    }}
                                     className="search-field form-control"
                                     data-default-value=""
                                   >
@@ -860,7 +888,10 @@ const Home = () => {
                                     name="max-price"
                                     title="Max Price"
                                     className="search-field form-control"
-                                    data-default-value=""
+                                    value={maxPrice}
+                                    onChange={(w) => {
+                                      setMaxPrice(w.target.value)
+                                    }}
                                   >
                                     <option value="">Max Price </option>
                                     <option value="500">500£</option>
@@ -877,7 +908,10 @@ const Home = () => {
                                     name="min-area"
                                     title="Min Size"
                                     className="search-field form-control"
-                                    data-default-value=""
+                                    value={minSize}
+                                    onChange={(w) => {
+                                      setMinSize(w.target.value)
+                                    }}
                                   >
                                     <option value="">Min Size </option>
                                     <option value="0">0 m2</option>
@@ -898,7 +932,10 @@ const Home = () => {
                                     name="max-area"
                                     title="Max Size"
                                     className="search-field form-control"
-                                    data-default-value=""
+                                    value={maxSize}
+                                    onChange={(w) => {
+                                      setMaxSize(w.target.value)
+                                    }}
                                   >
                                     <option value="">Max Size </option>
                                     <option value="200">200 m2</option>
@@ -917,8 +954,10 @@ const Home = () => {
                                   <input
                                     type="text"
                                     className="ere-property-identity form-control search-field"
-                                    data-default-value=""
-                                    value=""
+                                    onChange={(w) => {
+                                      setPropId(w.target.value)
+                                    }}
+                                    value={propId}
                                     name="property_identity"
                                     placeholder="Property ID"
                                   />

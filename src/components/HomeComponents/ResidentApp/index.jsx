@@ -1,4 +1,4 @@
-import "../../../assets/css/ResidentApp.css";
+import "../../../assets/css/ResidentApp.css"
 import phone_alt from "../../../assets/img/mockup.png"
 
 

@@ -541,7 +541,7 @@ const UsefulInformation = () => {
                                         <div className="property-heading">
                                           <h2 className="property-title">
                                             <Link
-                                              href="https://www.qsyrys.com/property/a-city-penthouse/"
+                                              href="/property/a-city-penthouse/"
                                               title="A CITY PENTHOUSE"
                                             >
                                               A CITY PENTHOUSE

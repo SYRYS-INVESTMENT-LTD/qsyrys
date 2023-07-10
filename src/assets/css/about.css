@@ -53233,9 +53233,31 @@ input[type=checkbox],input[type=radio] {
     border-bottom-color: var(--g5-color-accent)
 }
 
-.beyot-class .ere-property-wrap .single-property-area .single-property-image-thumb .current:before {
+.swiper-thumbs .swiper-slide-thumb-active:before {
     background-color: rgba(var(--g5-color-heading-r),var(--g5-color-heading-g),var(--g5-color-heading-b),.6)
 }
+
+.swiper-thumbs .owl-item {
+    cursor:pointer;
+}
+
+.swiper-thumbs .owl-item:before {
+    content: "";
+    z-index:10;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+
 
 .beyot-class #map-property-single .item-body a:hover,.beyot-class .ere-property-wrap .ere-property-wrap .ere-property .property-item-content .property-title a:hover,.beyot-class .ere-property-wrap .ere-property-wrap .ere-property .social-share-hover .social-share-list a,.beyot-class .ere-property-wrap .single-property-area .agent-content .agent-heading a:hover,.beyot-class .ere-property-wrap .single-property-area .contact-agent .form-error,.beyot-class .ere-property-wrap .single-property-area .contact-agent .form-messages,.beyot-class .ere-property-wrap .single-property-area .ere-view-video:hover {
     color: var(--g5-color-accent)
